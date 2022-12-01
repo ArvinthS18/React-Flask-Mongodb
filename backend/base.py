@@ -130,7 +130,7 @@ def api_id():
     # return "New data added"  
     names.create_index("Name",unique=True)
     try :
-      names.insert_one({"Name" : NAME, "class" : CLASS, "Rollno" : ROW1,"Mark" : MARK2})
+      names.insert_one({"Name" : NAME, "class" : CLASS, "Roll no" : ROW1,"Mark" : MARK2})
     except :
         return "Name already exist" 
     return "New data added" 
